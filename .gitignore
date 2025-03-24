@@ -1,0 +1,86 @@
+# Общие правила для Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и временные файлы
+*.log
+*.pot
+*.temp
+*.tmp
+*.out
+*.pytest_cache/
+
+# Конфигурационные файлы
+*.env
+*.ini
+*.toml
+
+# Среды виртуальных окружений
+venv/
+.env/
+.venv/
+env/
+
+# Системные файлы и IDE
+*.DS_Store
+*.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Каталоги данных
+data/
+dataset/
+*.csv
+*.tsv
+*.json
+
+# Модели и веса
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# Файлы вывода
+outputs/
+results/
+
+# TensorBoard
+logs/
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Pytest
+.pytest_cache/
+
+# Pyre Checks
+.pytype/
+
+# Cython debug symbols
+*.so
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+pyinstaller/
+
+
+# Datasets
+datasets/
+data_video/
+
+data_audio_train/
+data_audio_test/
+
+catboost_info/
+trash/
